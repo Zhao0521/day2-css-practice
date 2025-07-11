@@ -23,6 +23,25 @@
         .larger-image {
             width: 500px;
         }
+
+        .thick-red-border {
+            border-color: red;
+            border-style: solid;
+            border-width: 5px;
+            border-radius: 10%;
+        }
+
+        .black-background {
+            background-color: black;
+        }
+
+        .space {
+            margin: 50px 500px 0px 0px;
+            padding: 50px 0px 50px 100px;
+            background-color:wheat;
+            font-family: monospace;
+            font-size: 40px;
+        }
     </style>
 </head>
 
@@ -38,14 +57,11 @@
     <h3>使用外部網頁字體,串入通過引用字體的 URL 在 CSS 中使用它。如Google Fonts</h3>
     <!--注意：屬性rel='stylesheet'為語意化關係標籤，值不能隨便寫，瀏覽器有標準關係名稱去執行對應功能，type現在可以不用打，是告訴瀏覽器導入的內容是什麼格式，現在瀏覽器會自動判斷-->
 
-    <img class="larger-image" src="images/Pexels_01.jpg" alt="A boat is traveling on the sea.">
+    <img class="larger-image thick-red-border" src="images/Pexels_01.jpg" alt="A boat is traveling on the sea.">
     <!--學習套入圖片並運用類別class改變圖片寬度大小-->
 
-    
-
-
-
-
+    <div class="black-background">">設置div的背景顏色</div>
+    <div class="space">設置div空間</div>
 
 
 
